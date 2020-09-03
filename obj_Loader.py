@@ -31,8 +31,6 @@ def main():
                          int(lines[i+2].split('/')[2])])
             faces.append([int(lines[i+3].split('/')[0]), int(lines[i+3].split('/')[1]),
                          int(lines[i+3].split('/')[2])])
-            faces.append([int(lines[i+4].split('/')[0]), int(lines[i+4].split('/')[1]),
-                         int(lines[i+4].split('/')[2])])
 
     # json用データを整形
     json_data = { "verts" : vertex_indices,
